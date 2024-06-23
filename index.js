@@ -35,7 +35,7 @@ client.on("interactionCreate", (interaction) => {
   interaction.reply("pong!!");
 });
 client.login(
-  "MTI1MTE3MzI5MTE3NjA5OTg0MA.GcY-0y.MAkGgpm2FNhdgpJuP-OVBPLxYn69xBHlNTjh80"
+  "MTI1MTE3MzI5MTE3NjA5OTg0MA.GrOiqS.jHqS8C4uRoVYOUcz5iaBdhYyuI8UT341deR3TA"
 );
 app.listen(8001, () => {
   console.log("server started at port:8001");

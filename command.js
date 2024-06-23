@@ -5,7 +5,7 @@ const commands = [
       description: 'Replies with Pong!',
     },
 ];
-const rest = new REST({ version: '10' }).setToken('MTI1MTE3MzI5MTE3NjA5OTg0MA.GcY-0y.MAkGgpm2FNhdgpJuP-OVBPLxYn69xBHlNTjh80');
+const rest = new REST({ version: '10' }).setToken('MTI1MTE3MzI5MTE3NjA5OTg0MA.GrOiqS.jHqS8C4uRoVYOUcz5iaBdhYyuI8UT341deR3TA');
 (async()=>{
     try {
         console.log('Started refreshing application (/) commands.');

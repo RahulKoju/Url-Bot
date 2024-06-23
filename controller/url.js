@@ -1,7 +1,8 @@
 const shortid = require("shortid");
 const URL = require("../models/url");
 async function handleGenerateNewShortUrl(message) {
-  const url = message.content.split("create")[1];
+  const url = message.content.split(" ")[1];
+  console.log(url);
   const urlEntry = await URL.findOne({ redirectUrl: url });
   if (urlEntry) {
     return { shortenedurl: `http://localhost:8001/${urlEntry.shortId}` };
